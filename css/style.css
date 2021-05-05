@@ -6,12 +6,13 @@
     animation: animation1;
     animation-duration: 4s;
     animation-delay: 1s;
-
 }
+
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: width 2s;
 }
 .ex-3-square {
     width: 100px;
@@ -76,4 +77,7 @@
 @keyframes animation1 {
     from{background-color: white;}
     to{background-color: red;}   
+}
+.ex-2-square:active{
+    width: 500px;
 }
